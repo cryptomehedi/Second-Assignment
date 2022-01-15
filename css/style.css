@@ -194,6 +194,47 @@ hr{
     color: #E02C6D;
     font-weight: bold;
 }
+
+/* become */
+
+.become-influ{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.become-influ-img img{
+    width: 404px;
+    height: 270px;
+    border-radius: 15px;
+    margin-right: 96px;
+}
+.become-influ-detile p{
+    width: 500px;
+    height: 90px;
+    color: #6C6C6C;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+}
+button{
+    background-color: #E02C6D;
+    width: 155px;
+    height: 44px;
+    border: 0px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+}
+
+
+/* footer */
+
+
 footer{
     height: 240px;
     text-align: center;
@@ -238,9 +279,10 @@ footer p{
 
 /* mobile device */
 
-@media only screen and (max-width:688px) {
+@media only screen and  (max-width:688px) {
     body{
-        margin: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .header-section{
         display: flex;
@@ -279,5 +321,66 @@ footer p{
     .collection-point{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .become-influ{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .become-influ-detile h1{
+        width: 311px;
+        height: 72px;
+        text-align: center;
+    }
+    .become-influ-detile p{
+        width: 329px;
+        height: 88px;
+        text-align: center;
+        padding-bottom: 50px;
+        
+    }
+    .become-influ-img img{
+        width: 299px;
+        height: 188px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    footer{
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 689px) and (max-width: 992px){
+    body{
+        margin: 50px;
+    }
+    .header-section{
+        display: flex;
+        margin-bottom: 150px;
+    }
+    
+    .logo{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+    .collection-point{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .become-influ{
+        align-items: center;
+    }
+    .become-influ-detile p{
+        width: 400px;
+        height: 90px;
+        align-items: center;
+    }
+    footer{
+        max-width: auto;
+        bottom: 0PX;
     }
 }
