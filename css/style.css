@@ -211,8 +211,8 @@ hr{
     margin-right: 96px;
 }
 .become-influ-detile p{
-    width: 500px;
-    height: 90px;
+    width: 80%;
+    height: auto;
     color: #6C6C6C;
     font-family: Poppins;
     font-style: normal;
@@ -334,7 +334,7 @@ footer p{
     }
     .become-influ-detile p{
         width: 329px;
-        height: 88px;
+        height: auto;
         text-align: center;
         padding-bottom: 50px;
         
@@ -375,12 +375,12 @@ footer p{
         align-items: center;
     }
     .become-influ-detile p{
-        width: 400px;
-        height: 90px;
+        width: 80%;
+        height: auto;
         align-items: center;
     }
     footer{
         max-width: auto;
-        bottom: 0PX;
+        bottom: 0px;
     }
 }
